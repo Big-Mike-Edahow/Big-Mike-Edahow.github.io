@@ -1,0 +1,44 @@
+<!-- dinosaur_gallery.html -->
+
+<!doctype html>
+<html lang="en-US"> 
+  <head> 
+    <title>Dinosaur Image Gallery</title> 
+	<style>
+        .intro { text-align: center; font-family: Arial; }
+
+        h2 { font-size: 36px; }
+
+        p { font-size: 14pt; }
+
+        #image-gallery { width: 600px; margin: 0 auto; }
+
+        #current-image { width: 100%; } 
+
+        #image-thumbs { 
+                        display: flex; 
+                        justify-content: center; 
+                        margin-top: 20px; }
+
+        .thumb { 
+                  width: 80px; 
+                  height: 80px; 
+                  object-fit: cover; 
+                  margin-right: 10px; 
+                  cursor: pointer; }
+    </style>
+  </head>
+  <main>
+  <body> 
+    <div class="intro"> 
+      <h2>Image Gallery</h2> 
+      <p>Select a thumbnail below to view the image</p> 
+	  <div id="image-gallery">
+	    <img id="current-image" src="/images/dinosaur1.jpg" alt="dinosaur">
+		<div id="image-thumbs"></div>
+      </div>
+    </div> 
+	<script src="script.js"></script>
+  </main>  
+  </body>
+</html>
