@@ -1,13 +1,29 @@
 <!-- trucking_gallery.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Image gallery</title>
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Trucking Image gallery</title>
+    <style>
+        body {
+                background-color: rgb(20, 40, 60);
+                color: rgb(240, 248, 255);
+                font-family: "Helvetica", "Arial", sans-serif;
+                font-size: 1.3em; }
+
+        a { color: rgb(255, 111, 111); }
+
+        .gallery { background: rgba(255, 255, 255, 0.2); padding: 1em; }
+
+        .rounded { border-radius: 15px; }
+
+        .gallery img { margin-right: 0.2em;
+                       width: 150px; }
+    </style>
 </head>
 <body>
+<main>    
     <h3>My trucking trips</h3>
     <h4>South Carolina Trip</h4>
     <div class="gallery rounded">
@@ -23,5 +39,6 @@
         <img src="images/Go_Cougs_Mural.jpg" alt="Go Cougs mural."  class="rounded">
         <img src="images/Town_Center_Lunch.jpg" alt="Town Center Lunch."  class="rounded">
     </div>
+</main>
 </body>
 </html>
