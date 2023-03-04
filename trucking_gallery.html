@@ -27,13 +27,7 @@
     <h3>My trucking trips</h3>
     <h4>South Carolina Trip</h4>
     <div class="gallery rounded">
-        <img src="images/Blackville_Sign_Selfie.jpg" alt="Blackville sign selfie." class="rounded" onclick="enlargeImg()" id="img1" />
-    <br />
-    <br />
-    <br />
-    <!-- Button to reset the Image size -->
-    <button onclick="resetImg()">Reset
-        </button>
+        <img src="images/Blackville_Sign_Selfie.jpg" alt="Blackville sign selfie." class="rounded"/>
         <img src="images/Blackville_Sign.jpg" alt="Blackville sign."  class="rounded">
         <img src="images/Home_Place_Sign.jpg" alt="Home Place sign."  class="rounded">
         <img src="images/Home_Place_Lane.jpg" alt="Home Place lane."  class="rounded">
@@ -46,21 +40,5 @@
         <img src="images/Town_Center_Lunch.jpg" alt="Town Center Lunch."  class="rounded">
     </div>
 </main>
-<!-- script to set display property -->
-<script>
-    img = document.getElementById("img1");
-    // Function to set image dimensions
-    function enlargeImg() {
-        img.style.width = "60%";
-        img.style.height = "auto";
-        img.style.transition = "width 0.5s ease";
-    }
-    // Function to reset image dimensions
-    function resetImg() {
-        img.style.width = "40%";
-        img.style.height = "auto";
-        img.style.transition = "width 0.5s ease";
-    }
-</script>            
 </body>
 </html>
