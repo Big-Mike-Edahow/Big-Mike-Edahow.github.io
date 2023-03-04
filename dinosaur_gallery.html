@@ -34,7 +34,23 @@
     </style>
   </head>
   <main>
-  <body> 
+	  
+  <script>
+    // For the Dinosaur Image Gallery
+    var imageThumbs = document.getElementById("image-thumbs");
+    var currentImage = document.getElementById("current-image");
+
+    for (var i = 1; i <= 5; i++) {
+    var thumb = document.createElement("img");
+    thumb.src = "/images/dinosaur" + i + ".jpg";
+    thumb.alt = "dinosaur " + i;
+    thumb.classList.add("thumb");
+    imageThumbs.appendChild(thumb);
+    thumb.addEventListener("click", function() {currentImage.src = this.src;} );
+    }
+  </script>	  
+
+    <body> 
     <div class="intro"> 
       <h2>Dinosaur Image Gallery</h2> 
       <p>Select a thumbnail below to view the image</p> 
@@ -43,7 +59,6 @@
 		<div id="image-thumbs"></div>
       </div>
     </div> 
-	<script src="script.js"></script>
   </main>  
   </body>
 </html>
