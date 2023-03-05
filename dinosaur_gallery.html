@@ -34,7 +34,16 @@
     </style>
   </head>
   <main>
-	  
+  <body> 
+    <div class="intro"> 
+      <h2>Dinosaur Image Gallery</h2> 
+      <p>Select a thumbnail below to view the image</p> 
+	  <div id="image-gallery">
+	    <img id="current-image" src="/images/dinosaur1.jpg" alt="dinosaur">
+		<div id="image-thumbs"></div>
+      </div>
+    </div> 
+  </main>
   <script>
     // For the Dinosaur Image Gallery
     var imageThumbs = document.getElementById("image-thumbs");
@@ -49,16 +58,5 @@
     thumb.addEventListener("click", function() {currentImage.src = this.src;} );
     }
   </script>	  
-
-    <body> 
-    <div class="intro"> 
-      <h2>Dinosaur Image Gallery</h2> 
-      <p>Select a thumbnail below to view the image</p> 
-	  <div id="image-gallery">
-	    <img id="current-image" src="/images/dinosaur1.jpg" alt="dinosaur">
-		<div id="image-thumbs"></div>
-      </div>
-    </div> 
-  </main>  
   </body>
 </html>
