@@ -5,7 +5,7 @@ var currentImage = document.getElementById("current-image");
 
 for (var i = 1; i <= 5; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "images/dinosaur" + i + ".jpg";
+    thumb.src = "/images/dinosaur" + i + ".jpg";
     thumb.alt = "dinosaur " + i;
     thumb.classList.add("thumb");
     imageThumbs.appendChild(thumb);
