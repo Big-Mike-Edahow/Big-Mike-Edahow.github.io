@@ -4,6 +4,7 @@ body {
     background-color: rgb(196, 219, 224);
 }
 
+/* Reset the entire box model and specify a new one: border-box. */
 * {
     box-sizing: border-box;
 }
