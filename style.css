@@ -113,7 +113,7 @@ form input[type="submit"] {
 .submit-button-wrapper {
 	margin: 20px 0;
 
-@media (max-width: 650px) {
+@media (max-width: 480px) {
     .links-and-contact {
         grid-template-columns: 100%;
     }
