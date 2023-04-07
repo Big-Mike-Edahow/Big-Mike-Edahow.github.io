@@ -4,6 +4,9 @@ body {
   background-color: pink;
 }
 
+h1 {
+  text-align: center;
+
 a {
   display: block;
   width: 300px;
