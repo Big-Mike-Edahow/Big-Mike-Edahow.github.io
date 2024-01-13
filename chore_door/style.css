@@ -5,27 +5,21 @@ body {
     margin: 0px;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 100%;
-    width: 100%;
-    height: 75px;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+.header {
     background-color: #00ffff;
+    text-align: center;
 }
 
 .title-row {
-    margin-top: 20px;
+    margin-top: 42px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 
 .instructions-title {
     display: inline;
-    font-size: 2em;
     font-family: 'Work Sans';
+    font-size: 18px;
     color: #00ffff;
 }
 
@@ -57,34 +51,17 @@ header {
     padding: 10px;
 }
 
-.grid-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-}
-
-#back > h3 > a {
-    color:pink;
-}
-
-#start {
+.start-row {
+    margin: auto;
     width: 120px;
-    height: 50px;
+    height: 43px;
+    background-color: #eb6536;
+    padding-top: 18px;
     font-family: 'Work Sans';
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
     text-align: center;
-    text-shadow: 2px 2px white;
-    margin: 5px auto 15px auto;
-    padding: 10px;
-    background-color: #eaa68e;
-    color: black;
-    border: 2px solid white;
-    border-radius: 3px;
-    box-shadow: 3px 3px 5px white;
+    color: #010165;
+    margin-bottom: 9px;
     cursor: pointer;
 }
 
