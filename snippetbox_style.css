@@ -54,7 +54,7 @@ h2 {
 }
 
 a {
-    color: yellow;
+    color: green;
     text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ nav div:last-child a {
 }
 
 nav a.live {
-    color: red;
+    color: darkgreen;
     cursor: default;
 }
 
